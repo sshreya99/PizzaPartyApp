@@ -1,5 +1,6 @@
 package com.zybooks.pizzaparty
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
      * Click listener function for the 'Calculate' button.
      * @param view The button view that was clicked.
      */
+    @SuppressLint("SetTextI18n")
     fun calculateClick(view: View) {
 
         // Get the text that was typed into the EditText
